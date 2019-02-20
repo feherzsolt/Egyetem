@@ -1,0 +1,95 @@
+APIk
+
+API definíciója:
++ elõször weboldal
++ gépek közötti kommunikáció
+[wttr.in]
+	+ microservice architektúrák
+
++ Böngészõ F12 tool
++ Fiddler
+
+Hogy néz ki egy API:
++ protokol (rétegek)
++ Általában HTTP felett (átmegy a tûzfalon)
+	+ lehet másik protokol, akár bináris ha fontos a teljesítmény
+
+HTTP 101:
++ szöveges protokol
++ TCP felett
+üzenet részei
+
+[Fiddler]: www.inf.u-szeged.hu (Http request response)
+
++ Postman
+
+API megközelítések:
++ feladat alapú
+	+ Web Services
+
+[POSTMAN] 
+https://www.w3schools.com/xml/tempconvert.asmx
+
++ állapot alapú (REST)
+https://api.github.com/orgs/google
+https://api.github.com/orgs/google/repos
+
+
+Adat átvitele:
++ query string
++ headerek
++ body
+
+Hitelesítés:
++ Authorization header
++ basic auth
++ Bearer token
++ (OAuth2 OpenIdConnect)
+
+
+API protokolok és formátumok:
++ Content-Type
++ SOAP
+	+ XML alapú
+	+ GET, POST
+POST /xml/tempconvert.asmx HTTP/1.1
+Host: www.w3schools.com
+Content-Type: text/xml; charset=utf-8
+Content-Length: length
+SOAPAction: "https://www.w3schools.com/xml/CelsiusToFahrenheit"
+
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <CelsiusToFahrenheit xmlns="https://www.w3schools.com/xml/">
+      <Celsius>string</Celsius>
+    </CelsiusToFahrenheit>
+  </soap:Body>
+</soap:Envelope>
+
+POST /xml/tempconvert.asmx HTTP/1.1
+Host: www.w3schools.com
+Content-Type: application/soap+xml; charset=utf-8
+Content-Length: length
+
+<?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+  <soap12:Body>
+    <CelsiusToFahrenheit xmlns="https://www.w3schools.com/xml/">
+      <Celsius>string</Celsius>
+    </CelsiusToFahrenheit>
+  </soap12:Body>
+</soap12:Envelope>
+
++ JSON / REST
+	+ JSON alapú
+	+ GET, POST, PUT, PATCH, DELETE
+
+https://api.github.com/orgs/google/repos
+
+(CORS)
+
+
+
+
+
