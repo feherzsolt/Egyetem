@@ -1,6 +1,6 @@
 ﻿namespace Etelek.Model
 {
-    public enum FoodType
+    public enum FoodType : byte
     {
         Dessert,
         MainDish,
