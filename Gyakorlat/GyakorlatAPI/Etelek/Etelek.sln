@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Etelek", "Etelek\Etelek.csproj", "{C1EE6DD3-BE0B-41FF-9866-024158662CFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1EE6DD3-BE0B-41FF-9866-024158662CFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1EE6DD3-BE0B-41FF-9866-024158662CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1EE6DD3-BE0B-41FF-9866-024158662CFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1EE6DD3-BE0B-41FF-9866-024158662CFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA6D04E4-ADA6-4B37-AA32-E14338F07E25}
+	EndGlobalSection
+EndGlobal
