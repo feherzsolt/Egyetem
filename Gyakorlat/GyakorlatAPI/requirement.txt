@@ -1,0 +1,10 @@
+get / get by id
+post
+put
+delete
+ua a név egyszer
+max 100
+validation
+overposting
+missing body
+missing parameters
