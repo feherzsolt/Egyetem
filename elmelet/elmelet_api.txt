@@ -89,6 +89,21 @@ https://api.github.com/orgs/google/repos
 
 (CORS)
 
+Gyakorlat
+
+13.94.248.37
+ZsFeher
+5AblakVanAzIrodaban
+
+https://github.com/feherzsolt/Egyetem
+API bemutatása, postmannel
+Maven project felépítése
+automatikus tesztelés
+legalább url konfiguráció
+elsõ tezt közös megírása
+második teszt közös megírása
+refaktor domainre
+validációk ellenõrzése (üres, long, szöveg szám helyett)
 
 
 
