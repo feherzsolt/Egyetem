@@ -1,0 +1,44 @@
+Html alapok
++ xml alapú
++ régiek még érvénytelen
+
+Html DOM
++ alap elemek (head,  body, div, p, script )
++ css
++ szemantikus html
++ input fieldek
+
+Html interakció
++ form
++ GET / POST
+
+Állapotmegõrzés módjai:
++ cookie
++ hidden field
++ query string
++ szerver oldalon érzékeny adatokat
+
+Web szerverek nálunk:
++ load balancing
++ DNS load balancing
++ közös tároló
+
+Cliens oldali scripting
++ kikapcsolható
++ htmlben hogy néz ki
+
+Web architektúrák
++ hagyományos
++ Egy oldalas
+
+Tesztelések:
++ mit könnyebb
++ kinézet
++ selenium
+
+Egyéb:
++ browser headerek
++ nyelv
++ user agent
++ redirect
++ 3rd party tesztelés
